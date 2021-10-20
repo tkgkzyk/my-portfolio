@@ -6,10 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <title>MyPortfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <header>
+      <div class="header-title">MyPortfolio</div>
+      <div class="header-list">
+        <ul>
+          <li>
+            <nav><a href="#Home">Home</a></nav>
+          </li>
+          <li>
+            <nav><a href="#Profile">Profile</a></nav>
+          </li>
+          <li>
+            <nav><a href="#Favorites">Favorites</a></nav>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section id="Home">
+      <div class="home-name">
+        <h1>KazuyukiTakagi</h1>
+        <div>JavaScriptPortfolio</div>
+      </div>
+    </section>
+    <section id="Profile">
+      <div class="profile-container">
+        <p class="profile-title">Name</p>
+        <div class="profile-text">Kazuyuki Takagi</div>
+        <p class="profile-title">Univ.</p>
+        <div class="profile-text">Soka University</div>
+        <p class="profile-title">Faculty</p>
+        <div class="profile-text">International Liberal Arts</div>
+        <p class="profile-title">Grade</p>
+        <div class="profile-text">Junior</div>
+        <p class="profile-title">Age</p>
+        <div class="profile-text">21</div>
+        <p class="profile-title">d.o.b</p>
+        <div class="profile-text">Oct 18, 2000</div>
+      </div>
+      <div class="profile-logo">MyProfile</div>
+    </section>
+    <section id="Favorites">
+      <div id="favo-container" class="favorites-container">
+        <p id="favo-title" class="favorites-title">J-Rock</p>
+        <div id="favo-text" class="favorites-text">KANA-BOON, My Hair is Bad, Saucy Dog, etc...</div>
+        <div id="favo-photo" class="favorites-photo"></div>
+        <div><input type="button" id="favo-button" class="favorites-button" value="Next"></div>
+        <div><input type="button" id="favo-back-button" class="favorites-back-button" value="Back"></div>
+        <div class="favorites-logo">MyFavorites</div>
+    </section>
+    <footer>
+      <p>&copy; 2021 KazuyukiTakagi, All Rights Reserved.</p>
+    </footer>
     <script src="main.js"></script>
   </body>
 </html>
