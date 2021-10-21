@@ -3,18 +3,38 @@
   padding: 0;
 }
 a {
-  color: rgb(10, 30, 90);
+  color: white;
   text-decoration: none;
 }
 a:hover {
-  color: rgb(24, 79, 124);
+  opacity: 0.5;
+}
+.li-button {
+  color: white;
+}
+.li-button:hover {
+  color: gray;
 }
 body {
   font-family: "Gill Sans";
   font-weight: bold;
 }
+.layer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.header-container {
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
 .header-title {
-  color: rgb(10, 30, 90);
+  color: white;
   float: left;
   padding: 20px 25px;
   font-size: 30px;
@@ -26,47 +46,57 @@ li {
   font-size: 20px;
 }
 #Home {
+  background-image: url("../images/IMG_6114.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  background-position: 30% 80%;
+}
+/*.home-name {
+  color: white;
+  position: absolute;
+  bottom: 25px;
+  right: 30px;
+  font-size: 20px;
+}*/
+#Profile {
   background-image: url("../images/water.jpg");
   background-size: cover;
   width: 100%;
   height: 700px;
 }
-.home-name {
-  color: white;
+.profile-container {
+  content: "";
   position: absolute;
-  bottom: 30px;
-  left: 30px;
-  font-size: 20px;
-}
-#Profile {
-  background-image: url("../images/clouds.jpg");
-  background-size: cover;
-  width: 100%;
+  top: 700px;
+  left: 0;
   height: 700px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
 }
 .profile-title {
   font-size: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   padding-top: 30px;
-  color: black;
+  color: white;
   text-align: center;
 }
 .profile-text {
   font-size: 25px;
-  margin-bottom: 10px;
-  color: black;
+  margin-bottom: 8px;
+  color: white;
   text-align: center;
   width: 100%;
 }
 .profile-logo {
-  color: black;
+  color: white;
   position: absolute;
   top: 720px;
   left: 25px;
   font-size: 30px;
 }
 #Favorites {
-  background-image: url("../images/stars.jpg");
+  background-image: url("../images/sample-wood.jpg");
   background-size: cover;
   width: 100%;
   height: 700px;
@@ -95,26 +125,15 @@ li {
   margin-top: 30px;
   margin-bottom: 30px;
   background-position: 50% 70%;
-  object-fit: cover;
 }
 .favorites-button {
   color: white;
   font-size: 30px;
   position: absolute;
   top: 2035px;
-  left: 700px;
-}
-.favorites-back-button {
-  color: white;
-  font-size: 30px;
-  position: absolute;
-  top: 2035px;
-  left: 500px;
+  left: 580px;
 }
 .favorites-button:hover {
-  opacity: 0.5;
-}
-.favorites-back-button:hover {
   opacity: 0.5;
 }
 .favorites-logo {

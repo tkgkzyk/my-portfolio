@@ -5,17 +5,29 @@ const favoPhoto = document.getElementById("favo-photo");
 const favoButton = document.getElementById("favo-button");
 const favoBackButton = document.getElementById("favo-back-button");
 let count = 0;
+const listProButton = document.getElementById("list-pro-button");
+const listFavoButton = document.getElementById("list-favo-button");
+
+listProButton.onclick = function () {
+  window.scrollTo({
+    top: 700, //上からの位置
+    left: 0, //左からの位置
+    behavior: "smooth", //smoothでスクロールしながら移動
+  });
+};
+
+listFavoButton.onclick = function () {
+  window.scrollTo({
+    top: 1400, //上からの位置
+    left: 0, //左からの位置
+    behavior: "smooth", //smoothでスクロールしながら移動
+  });
+};
 
 favoButton.onclick = function () {
   if (count < 5) {
+    favoTitle;
     count++;
-    changeContent(count);
-  }
-};
-
-favoBackButton.onclick = function () {
-  if (count >= 0) {
-    count--;
     changeContent(count);
   }
 };
@@ -67,7 +79,7 @@ const changeContent2 = function () {
 
 const changeContent3 = function () {
   favoTitle.innerHTML = "<p>Walk</p>";
-  favoText.innerHTML = "<div>With Lea</div>";
+  favoText.innerHTML = "<div>With Dog</div>";
   favoPhoto.style.backgroundImage = 'url("../images/IMG_7550.jpg")';
 };
 

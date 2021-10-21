@@ -10,25 +10,31 @@
   </head>
   <body>
     <header>
+      <div class="layer"></div>
+      <div class="header-container" style="z-index:10">
       <div class="header-title">MyPortfolio</div>
       <div class="header-list">
         <ul>
           <li>
-            <nav><a href="#Home">Home</a></nav>
+            <input type="button" id="list-home-button" class="li-button" value="Profile">
+            <!--<nav><a href="#Home" class="jump">Home</a></nav>-->
           </li>
           <li>
-            <nav><a href="#Profile">Profile</a></nav>
+            <input type="button" id="list-pro-button" class="li-button" value="Profile">
+            <!--<nav><a href="#Profile">Profile</a></nav>-->
           </li>
           <li>
-            <nav><a href="#Favorites">Favorites</a></nav>
+            <input type="button" id="list-favo-button" class="li-button" value="Favorites">
+            <!--<nav><a href="#Favorites">Favorites</a></nav>-->
           </li>
         </ul>
+      </div>
       </div>
     </header>
     <section id="Home">
       <div class="home-name">
-        <h1>KazuyukiTakagi</h1>
-        <div>JavaScriptPortfolio</div>
+        <!--<h1>KazuyukiTakagi</h1>
+        <div>JavaScriptPortfolio</div>-->
       </div>
     </section>
     <section id="Profile">
@@ -54,7 +60,6 @@
         <div id="favo-text" class="favorites-text">KANA-BOON, My Hair is Bad, Saucy Dog, etc...</div>
         <div id="favo-photo" class="favorites-photo"></div>
         <div><input type="button" id="favo-button" class="favorites-button" value="Next"></div>
-        <div><input type="button" id="favo-back-button" class="favorites-back-button" value="Back"></div>
         <div class="favorites-logo">MyFavorites</div>
     </section>
     <footer>
