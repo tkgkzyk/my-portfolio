@@ -46,7 +46,7 @@ li {
   font-size: 20px;
 }
 #Home {
-  background-image: url("../images/IMG_6114.jpg");
+  background-image: url("./images/IMG_6114.jpg");
   background-size: cover;
   width: 100%;
   height: 700px;
@@ -60,7 +60,7 @@ li {
   font-size: 20px;
 }*/
 #Profile {
-  background-image: url("../images/water.jpg");
+  background-image: url("./images/water.jpg");
   background-size: cover;
   width: 100%;
   height: 700px;
@@ -96,7 +96,7 @@ li {
   font-size: 30px;
 }
 #Favorites {
-  background-image: url("../images/sample-wood.jpg");
+  background-image: url("./images/sample-wood.jpg");
   background-size: cover;
   width: 100%;
   height: 700px;
@@ -116,7 +116,7 @@ li {
   width: 100%;
 }
 .favorites-photo {
-  background-image: url("../images/IMG_7410.jpg");
+  background-image: url("./images/IMG_7410.jpg");
   background-size: cover;
   width: 50%;
   height: 440px;

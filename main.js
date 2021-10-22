@@ -62,29 +62,29 @@ const changeContent0 = function () {
   favoTitle.innerHTML = "<p>J-Rock</p>";
   favoText.innerHTML =
     "<div>KANA-BOON, My Hair is Bad, Saucy Dog, etc...</div>";
-  favoPhoto.style.backgroundImage = 'url("../images/IMG_7410.jpg")';
+  favoPhoto.style.backgroundImage = 'url("./images/IMG_7410.jpg")';
 };
 
 const changeContent1 = function () {
   favoTitle.innerHTML = "<p>Soccer</p>";
   favoText.innerHTML = "<div>ElementarySchool~HighSchool</div>";
-  favoPhoto.style.backgroundImage = 'url("../images/IMG_4677.jpg")';
+  favoPhoto.style.backgroundImage = 'url("./images/IMG_4677.jpg")';
 };
 
 const changeContent2 = function () {
   favoTitle.innerHTML = "<p>Dog</p>";
   favoText.innerHTML = "<div>Pet's Name : Lea</div>";
-  favoPhoto.style.backgroundImage = 'url("../images/IMG_7302.jpg")';
+  favoPhoto.style.backgroundImage = 'url("./images/IMG_7302.jpg")';
 };
 
 const changeContent3 = function () {
   favoTitle.innerHTML = "<p>Walk</p>";
   favoText.innerHTML = "<div>With Dog</div>";
-  favoPhoto.style.backgroundImage = 'url("../images/IMG_7550.jpg")';
+  favoPhoto.style.backgroundImage = 'url("./images/IMG_7550.jpg")';
 };
 
 const changeContent4 = function () {
   favoTitle.innerHTML = "<p>Unity</p>";
   favoText.innerHTML = "<div>GameEngine, CommingSoon...</div>";
-  favoPhoto.style.backgroundImage = 'url("../images/Unity.jpeg")';
+  favoPhoto.style.backgroundImage = 'url("./images/Unity.jpeg")';
 };
