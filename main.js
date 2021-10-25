@@ -11,7 +11,6 @@ const listFavoButton = document.getElementById("list-favo-button");
 listProButton.onclick = function () {
   window.scrollTo({
     top: 700, //上からの位置
-    left: 0, //左からの位置
     behavior: "smooth", //smoothでスクロールしながら移動
   });
 };

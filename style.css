@@ -26,6 +26,8 @@ body {
   width: 100%;
   height: 80px;
   background: rgba(0, 0, 0, 0.5);
+  animation-name: fade;
+  animation-duration: 3s;
 }
 .header-container {
   position: absolute;
@@ -38,18 +40,32 @@ body {
   float: left;
   padding: 20px 25px;
   font-size: 30px;
+
+  animation-name: fade;
+  animation-duration: 3s;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 li {
   list-style: none;
   float: left;
   padding: 30px 10px;
   font-size: 20px;
+
+  animation-name: fade;
+  animation-duration: 3s;
 }
 #Home {
   background-image: url("./images/IMG_6114.jpg");
   background-size: cover;
   width: 100%;
-  height: 700px;
+  height: 100vh;
   background-position: 30% 80%;
 }
 /*.home-name {
@@ -63,14 +79,14 @@ li {
   background-image: url("./images/water.jpg");
   background-size: cover;
   width: 100%;
-  height: 700px;
+  height: 100vh;
 }
 .profile-container {
   content: "";
   position: absolute;
-  top: 700px;
+  top: 100vh;
   left: 0;
-  height: 700px;
+  height: 100vh;
   width: 100%;
   background: rgba(0, 0, 0, 0.3);
 }
@@ -90,16 +106,17 @@ li {
 }
 .profile-logo {
   color: white;
-  position: absolute;
-  top: 720px;
-  left: 25px;
+  top: 0vh;
+  margin-left: 25px;
+  padding-top: 20px;
   font-size: 30px;
+  position: relative;
 }
 #Favorites {
   background-image: url("./images/sample-wood.jpg");
   background-size: cover;
   width: 100%;
-  height: 700px;
+  height: 100vh;
 }
 .favorites-title {
   font-size: 35px;
@@ -107,6 +124,7 @@ li {
   padding-top: 40px;
   color: white;
   text-align: center;
+  width: 81%;
 }
 .favorites-text {
   font-size: 30px;
@@ -129,19 +147,19 @@ li {
 .favorites-button {
   color: white;
   font-size: 30px;
-  position: absolute;
-  top: 2035px;
-  left: 580px;
+  top: 100vh;
+  width: 100%;
+  text-align: center;
 }
 .favorites-button:hover {
   opacity: 0.5;
 }
 .favorites-logo {
   color: white;
-  position: absolute;
-  top: 1420px;
-  left: 25px;
+  padding-top: 20px;
+  margin-left: 25px;
   font-size: 30px;
+  float: left;
 }
 footer {
   display: flex;

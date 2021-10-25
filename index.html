@@ -11,24 +11,39 @@
   <body>
     <header>
       <div class="layer"></div>
-      <div class="header-container" style="z-index:10">
-      <div class="header-title">MyPortfolio</div>
-      <div class="header-list">
-        <ul>
-          <li>
-            <input type="button" id="list-home-button" class="li-button" value="Profile">
-            <!--<nav><a href="#Home" class="jump">Home</a></nav>-->
-          </li>
-          <li>
-            <input type="button" id="list-pro-button" class="li-button" value="Profile">
-            <!--<nav><a href="#Profile">Profile</a></nav>-->
-          </li>
-          <li>
-            <input type="button" id="list-favo-button" class="li-button" value="Favorites">
-            <!--<nav><a href="#Favorites">Favorites</a></nav>-->
-          </li>
-        </ul>
-      </div>
+      <div class="header-container" style="z-index: 10">
+        <div class="header-title">MyPortfolio</div>
+        <div class="header-list">
+          <ul>
+            <li>
+              <input
+                type="button"
+                id="list-home-button"
+                class="li-button"
+                value="Profile"
+              />
+              <!--<nav><a href="#Home" class="jump">Home</a></nav>-->
+            </li>
+            <li>
+              <input
+                type="button"
+                id="list-pro-button"
+                class="li-button"
+                value="Profile"
+              />
+              <!--<nav><a href="#Profile">Profile</a></nav>-->
+            </li>
+            <li>
+              <input
+                type="button"
+                id="list-favo-button"
+                class="li-button"
+                value="Favorites"
+              />
+              <!--<nav><a href="#Favorites">Favorites</a></nav>-->
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <section id="Home">
@@ -42,9 +57,13 @@
         <p class="profile-title">Name</p>
         <div class="profile-text">Kazuyuki Takagi</div>
         <p class="profile-title">Univ.</p>
-        <div class="profile-text">Soka University</div>
+        <div class="profile-text">
+          <a href="https://www.soka.ac.jp/">Soka University</a>
+        </div>
         <p class="profile-title">Faculty</p>
-        <div class="profile-text">International Liberal Arts</div>
+        <div class="profile-text">
+          <a href="https://www.soka.ac.jp/fila/">International Liberal Arts</a>
+        </div>
         <p class="profile-title">Grade</p>
         <div class="profile-text">Junior</div>
         <p class="profile-title">Age</p>
@@ -52,15 +71,23 @@
         <p class="profile-title">d.o.b</p>
         <div class="profile-text">Oct 18, 2000</div>
       </div>
-      <div class="profile-logo">MyProfile</div>
+      <div class="profile-logo" style="z-index: 1000">MyProfile</div>
     </section>
     <section id="Favorites">
-      <div id="favo-container" class="favorites-container">
-        <p id="favo-title" class="favorites-title">J-Rock</p>
-        <div id="favo-text" class="favorites-text">KANA-BOON, My Hair is Bad, Saucy Dog, etc...</div>
-        <div id="favo-photo" class="favorites-photo"></div>
-        <div><input type="button" id="favo-button" class="favorites-button" value="Next"></div>
-        <div class="favorites-logo">MyFavorites</div>
+      <div class="favorites-logo">MyFavorites</div>
+      <p id="favo-title" class="favorites-title">J-Rock</p>
+      <div id="favo-text" class="favorites-text">
+        KANA-BOON, My Hair is Bad, Saucy Dog, etc...
+      </div>
+      <div id="favo-photo" class="favorites-photo"></div>
+      <div>
+        <input
+          type="button"
+          id="favo-button"
+          class="favorites-button"
+          value="Next"
+        />
+      </div>
     </section>
     <footer>
       <p>&copy; 2021 KazuyukiTakagi, All Rights Reserved.</p>

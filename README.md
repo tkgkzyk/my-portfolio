@@ -1,4 +1,4 @@
-# My Portfolio made while GeekSalon WebExpert Cource
+<!--# My Portfolio made while GeekSalon WebExpert Cource
 
 My Portfolio Demo 👉 *[Github PagesのURLを記載]*
 
@@ -76,4 +76,4 @@ $ git checkout .
 
 <img src="https://pages.github.com/images/launch-theme-chooser@2x.png" width="640">
 
-3. 表示された URL にアクセスしてデプロイされているか、確認したら完了。🎉🎉
+3. 表示された URL にアクセスしてデプロイされているか、確認したら完了。🎉🎉-->
