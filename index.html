@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MyPortfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="layer"></div>
+      <div class="header-container" style="z-index: 10">
+        <div class="header-title">MyPortfolio</div>
+        <div class="header-list">
+          <ul>
+            <li>
+              <input
+                type="button"
+                id="list-pro-button"
+                class="li-button"
+                value="Profile"
+              />
+              <!--<nav><a href="#Profile">Profile</a></nav>-->
+            </li>
+            <li>
+              <input
+                type="button"
+                id="list-favo-button"
+                class="li-button"
+                value="Products"
+              />
+              <!--<nav><a href="#Favorites">Favorites</a></nav>-->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section id="Home">
+      <div class="home-name">
+        <!--<h1>KazuyukiTakagi</h1>
+        <div>JavaScriptPortfolio</div>-->
+      </div>
+    </section>
+    <section id="Profile">
+      <div class="profile-container">
+        <p class="profile-title">Name</p>
+        <div class="profile-text">Kazuyuki Takagi</div>
+        <p class="profile-title">Age</p>
+        <div class="profile-text">22</div>
+        <p class="profile-title">Univ.</p>
+        <div class="profile-text">
+          <a href="https://www.soka.ac.jp/">Soka University</a>
+        </div>
+        <p class="profile-title">Faculty</p>
+        <div class="profile-text">
+          <a href="https://www.soka.ac.jp/fila/">International Liberal Arts</a>
+        </div>
+      </div>
+      <div class="profile-logo" style="z-index: 1000">MyProfile</div>
+    </section>
+    <section id="Favorites">
+      <div class="favorites-logo">MyProducts</div>
+      <p id="favo-title" class="favorites-title">J-Rock</p>
+      <div id="favo-text" class="favorites-text">
+        KANA-BOON, My Hair is Bad, Saucy Dog, etc...
+      </div>
+      <div>
+        <input
+          type="button"
+          id="favo-button"
+          class="favorites-button"
+          value="Next"
+        />
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2021 KazuyukiTakagi, All Rights Reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
